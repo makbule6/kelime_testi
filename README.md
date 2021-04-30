@@ -1,2 +1,2 @@
 # kelime_testi
-Flutter ile geliştirilmiş 20 soruluk temel seviye ingilizce kelime uygulaması
+Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 193311026 numaralı Makbule Arı tarafından 30 Nisan 2021 günü yapılmıştır.
