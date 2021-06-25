@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "647611479194",
+    "project_id": "fir-aa7db",
+    "storage_bucket": "fir-aa7db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647611479194:android:ccb43771c72ea625a79b23",
+        "android_client_info": {
+          "package_name": "com.example.kelime_testi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647611479194-ft6jilg65jc5a8n17mhlo5b9ueomrrkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAF5omCMIX2zuDEqevgK_lw214kotpl2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647611479194-ft6jilg65jc5a8n17mhlo5b9ueomrrkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
