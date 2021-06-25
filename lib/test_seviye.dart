@@ -3,12 +3,11 @@ import 'kolay_test.dart';
 import 'orta_test.dart';
 import 'zor_test.dart';
 
-
-class Seviye extends StatefulWidget {
+class test_seviye extends StatefulWidget {
   @override
-  _SeviyeState createState() => _SeviyeState();
+  _test_seviyeState createState() => _test_seviyeState();
 }
-class _SeviyeState extends State<Seviye> {
+class _test_seviyeState extends State<test_seviye> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,8 +24,14 @@ class _SeviyeState extends State<Seviye> {
             mainAxisSize: MainAxisSize.min,
             //mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Image.asset('assets/images/resim3.jpg'),
-              //Text('İstediğiniz seviyeyi seçiniz. '),
+
+              new GestureDetector(
+                child: Image.asset('assets/images/resim3.jpg'),
+                onTapCancel: () {
+                  ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
+                      content: new Text('Resme tıklar gibi yaptın vazgeçtin')));
+                },
+              ),
               SizedBox(
                 height: 30,
               ),
